@@ -1,0 +1,11 @@
+ul {
+    background-color: lightcoral;
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
