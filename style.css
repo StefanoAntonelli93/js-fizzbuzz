@@ -1,11 +1,24 @@
-ul {
-    background-color: lightcoral;
-    display: flex;
-    gap: 10px;
-}
-
+/* stile li */
 li {
     width: 100px;
     height: 100px;
-    background-color: green;
+    background-color: rgb(138, 255, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.fizz {
+    background-color: rgb(255, 79, 79);
+}
+
+.buzz {
+    background-color: rgb(255, 245, 49);
+}
+
+.fizzbuzz {
+    background-color: aqua;
 }

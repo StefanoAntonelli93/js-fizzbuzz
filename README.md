@@ -2,7 +2,9 @@ Ciao ragazzi,
 
 Esercizio di oggi: FizzBuzz
 
-nome repo: js-fizzbuzzConsegna:
+nome repo: js-fizzbuzz
+
+Consegna:
 
 Scrivi un programma che stampi in console i numeri da 1 a 100, ma che per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi “Buzz”. Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.Prima di partire a scrivere codice poniamoci qualche domanda:
 Come faccio a sapere se un numero è divisibile per un altro? Abbiamo visto qualcosa di particolare che possiamo usare?Consigli del giorno:
@@ -18,3 +20,24 @@ BONUS 2:
 Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz. Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
 Ricordate: il primo push dovrà essere un file README.md contenente la risoluzione dell’esercizio in linguaggio naturale!
 Buon lavoro e buon divertimento!
+
+
+
+// esempio ciclo ul
+
+
+for (let index = 0; index < 10; index++) {
+  const li = document.createElement('li');
+  const myP = document.createElement('p');
+
+  li.classList.add('prova');
+  myP.classList.add('prova-p');
+
+  myP.innerHTML = '<span>Ciao classe 126</span>';
+
+  li.append(myP);
+  li.addEventListener('click', function () {
+    console.log('elemento ' + index);
+  });
+  ul.append(li);
+}
